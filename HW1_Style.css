@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: beige;
+}
+
+.hStart {
+  text-align: center;
+  color: rgb(50, 43, 66);
+  text-shadow: 10px 5px 20px;
+  padding: 25px;
+  transition: 1s all ease-in;
+  scale: 1.4;
+}
+
+h1:hover {
+  transition: 1s all ease-in;
+  scale: 1.4;
+  font-size: 45px;
+  transform: translateX(20px);
+}
+
+.afterStart {
+  text-align: center;
+  color: rgb(50, 43, 66);
+  opacity: 0.5;
+}
+
+a {
+  color: black;
+}
+
+.sec {
+  border-radius: 20px;
+  border: 2px solid rgb(244, 203, 92);
+  overflow: hidden;
+  padding: 5px;
+}
+
+#Blueberry {
+  background-color: rgb(16, 7, 56);
+  container: flex;
+  padding: 10px;
+  color: white;
+}
+
+#ConcordGrape {
+  background-color: rgb(62, 1, 39);
+  container: flex;
+  padding: 10px;
+  color: white;
+}
+
+#Kiwi {
+  background-color: rgb(65, 52, 30);
+  container: flex;
+  padding: 10px;
+  color: white;
+}
+
+#Papaya {
+  background-color: rgb(146, 70, 49);
+  container: flex;
+  padding: 10px;
+  color: white;
+}
+
+.links {
+  color: beige;
+}
+
+.img {
+  width: 350px;
+  height: 250px;
+  margin: 16px;
+  align-self: center;
+}
+
+section {
+  display: flex;
+  margin: 10px;
+}
+
+div {
+  text-align: center;
+  align-self: center;
+  margin: 16px;
+}
+
+#shopping {
+  display: inline;
+  margin: auto;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 320px;
+  background-color: rgba(244, 203, 92, 0.454);
+  border-radius: 12px;
+  border: 2px solid rgb(45, 22, 0);
+  overflow: hidden;
+  padding: 5px;
+}
+
+.card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  aspect-ratio: 8/5;
+}
+
+.card img:hover {
+  opacity: 0.6;
+}
+
+footer {
+  padding: 3px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(188, 198, 198, 0.5) 10%,
+      rgba(237, 228, 236, 0.7) 57%
+    ),
+    url(https://media.istockphoto.com/id/1310236336/photo/assortment-of-fresh-exotic-fruits-as-background-top-view.webp?b=1&s=170667a&w=0&k=20&c=4_bf1uy2ipCKar7jCqpeBC1MVTi3yasIyCAzFOOfU4c=);
+  background-size: cover;
+  min-height: 140px;
+  position: relative;
+}
+
+.downcrumbs {
+  position: absolute;
+  cursor: pointer;
+}
+
+.crumbs {
+  display: block;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  /*vertical-align: middle;*/
+  cursor: pointer;
+  border: 0.5px solid rgb(71, 52, 0);
+  border-radius: 2px;
+  background-color: rgba(244, 203, 92, 0.8);
+  margin: 5px;
+  width: fit-content;
+}
